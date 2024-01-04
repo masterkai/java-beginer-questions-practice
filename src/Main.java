@@ -56,14 +56,22 @@ public class Main {
         String re = "";
         String allUpperCase = string.toUpperCase();
         for (int i = 0; i < string.length(); i++) {
-            if(string.charAt(i)==allUpperCase.charAt(i)) {
-                re = string.charAt(i)+" "+i;
+            if (string.charAt(i) == allUpperCase.charAt(i)) {
+                re = string.charAt(i) + " " + i;
                 break;
             } else {
                 re = "-1";
             }
         }
         System.out.println(re);
+    }
+
+    public static boolean confirmEnding(String a, String b) {
+        int length = b.length();
+        int diff = a.length() - length;
+        String ending = a.substring(diff);
+
+        return ending.equals(b);
     }
 
     public static void main(String[] args) {
@@ -78,9 +86,12 @@ public class Main {
 //        System.out.println(addUpTo(100));
 //        System.out.println(addUpTo(1000));
 //        System.out.println(addUpTo(10000));
-        position("abcd"); // prints -1
-        position("AbcD"); // prints A 0
-        position("abCD"); // prints C 2
+//        position("abcd"); // prints -1
+//        position("AbcD"); // prints A 0
+//        position("abCD"); // prints C 2
 //        System.out.println(findMax(array));
+        System.out.println(confirmEnding("Bastian", "n"));
+        System.out.println(confirmEnding("Connor", "n"));
+        System.out.println(confirmEnding("Open sesame", "same"));
     }
 }

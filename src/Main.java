@@ -102,6 +102,17 @@ public class Main {
 
     }
 
+    public static int findSmallCount(int[] arr, int n){
+        int count = 0;
+        int length = arr.length;
+        for (int i = 0; i < length; i++) {
+            if(arr[i]<n) {
+                count+=1;
+            }
+        }
+        return count;
+    }
+
     public static void main(String[] args) {
         // printEvery3();
         // ninetable();
@@ -128,10 +139,12 @@ public class Main {
 //        System.out.println("Array 1 has duplicate: " + findDuplicate(array1));
 //        System.out.println("Array 2 has duplicate: " + findDuplicate(array2));
 //        System.out.println("Array 3 has duplicate: " + findDuplicate(array3));
-        pyramid(1);
-        System.out.println("====================");
-        pyramid(3);
-        System.out.println("====================");
-        pyramid(5);
+//        pyramid(1);
+//        System.out.println("====================");
+//        pyramid(3);
+//        System.out.println("====================");
+//        pyramid(5);
+        System.out.println(findSmallCount(new int[] {1, 2, 3}, 2));
+        System.out.println(findSmallCount(new int[] {1, 2, 3, 4, 5}, 0));
     }
 }

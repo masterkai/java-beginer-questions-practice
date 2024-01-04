@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="717461ae-4edb-459c-8310-af27414b2708" name="Changes" comment="feat: add confirmEnding method and refactor code in Main.java (main)&#10;&#10;This commit adds a new method to the Main.java file:&#10;&#10;- confirmEnding method that takes two Strings a and b as input and returns true if a ends with b, false otherwise&#10;&#10;The commit also refactors some existing code in the Main.java file:&#10;&#10;- Format the code with spaces for readability&#10;- Comment out some unused method calls in the main method&#10;- Update the workspace.xml file with the latest changelist and task information&#10;&#10;The issue number is obtained from the branch name, which is main.">
+    <list default="true" id="717461ae-4edb-459c-8310-af27414b2708" name="Changes" comment="feat: add findDuplicate and pyramid methods in Main.java (main)&#10;&#10;This commit adds two new methods to the Main.java file:&#10;&#10;- findDuplicate method that takes an int array as input and returns true if it contains any duplicate elements, false otherwise&#10;- pyramid method that takes an int n as input and prints a pyramid of n stars&#10;&#10;The commit also refactors some existing code in the Main.java file:&#10;&#10;- Comment out some unused method calls in the main method&#10;- Update the workspace.xml file with the latest changelist and task information&#10;&#10;The issue number is obtained from the branch name, which is main.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -19,31 +19,31 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2aTs0qg1mnz29Ca9GphBSb7aCDp" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/Users/masterkai/IdeaProjects/beginer-question/src/Main.java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/masterkai/IdeaProjects/beginer-question/src/Main.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -52,7 +52,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1704353685560</updated>
-      <workItem from="1704353686925" duration="7666000" />
+      <workItem from="1704353686925" duration="8431000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add .idea, .gitignore and Main.java files (main)&#10;&#10;This commit adds the following files to the project:&#10;&#10;- .idea/vcs.xml: contains the mapping of the project directory to Git&#10;- .idea/misc.xml: contains the project settings such as JDK version and output directory&#10;- .idea/modules.xml: contains the module information for the project&#10;- .idea/workspace.xml: contains the workspace settings such as changelist and task manager&#10;- .gitignore: contains the files and directories to be ignored by Git&#10;- beginer-question.iml: contains the module type and source folder for the project&#10;- src/Main.java: contains the main class with some methods for printing numbers, multiplication table and finding maximum value in an array&#10;&#10;The issue number is obtained from the branch name, which is main.">
       <option name="closed" value="true" />
@@ -86,7 +86,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704360213354</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat: add findDuplicate and pyramid methods in Main.java (main)&#10;&#10;This commit adds two new methods to the Main.java file:&#10;&#10;- findDuplicate method that takes an int array as input and returns true if it contains any duplicate elements, false otherwise&#10;- pyramid method that takes an int n as input and prints a pyramid of n stars&#10;&#10;The commit also refactors some existing code in the Main.java file:&#10;&#10;- Comment out some unused method calls in the main method&#10;- Update the workspace.xml file with the latest changelist and task information&#10;&#10;The issue number is obtained from the branch name, which is main.">
+      <option name="closed" value="true" />
+      <created>1704361550562</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1704361550562</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,6 +105,7 @@
     <MESSAGE value="feat: add reverseArray method and refactor code in Main.java (main)&#10;&#10;This commit adds a new method to reverse an array and refactors some existing code in the Main.java file. The changes are:&#10;&#10;- Add reverseArray method that takes an int array as input and returns a new array with the elements in reverse order&#10;- Use reverseArray method in the main method to print the reversed array&#10;- Format the code with spaces and comments for readability&#10;- Remove unused imports and variables&#10;- Update the workspace.xml file with the latest changelist and task information&#10;&#10;The issue number is obtained from the branch name, which is main." />
     <MESSAGE value="feat: add addUpTo and position methods in Main.java (main)&#10;&#10;This commit adds two new methods to the Main.java file:&#10;&#10;- addUpTo method that takes an int n as input and returns the sum of all integers from 1 to n&#10;- position method that takes a String string as input and prints the first uppercase letter and its index, or -1 if none&#10;&#10;The commit also refactors some existing code in the Main.java file:&#10;&#10;- Remove unused imports and variables&#10;- Format the code with spaces and comments for readability&#10;- Update the workspace.xml file with the latest changelist and task information&#10;&#10;The issue number is obtained from the branch name, which is main." />
     <MESSAGE value="feat: add confirmEnding method and refactor code in Main.java (main)&#10;&#10;This commit adds a new method to the Main.java file:&#10;&#10;- confirmEnding method that takes two Strings a and b as input and returns true if a ends with b, false otherwise&#10;&#10;The commit also refactors some existing code in the Main.java file:&#10;&#10;- Format the code with spaces for readability&#10;- Comment out some unused method calls in the main method&#10;- Update the workspace.xml file with the latest changelist and task information&#10;&#10;The issue number is obtained from the branch name, which is main." />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add confirmEnding method and refactor code in Main.java (main)&#10;&#10;This commit adds a new method to the Main.java file:&#10;&#10;- confirmEnding method that takes two Strings a and b as input and returns true if a ends with b, false otherwise&#10;&#10;The commit also refactors some existing code in the Main.java file:&#10;&#10;- Format the code with spaces for readability&#10;- Comment out some unused method calls in the main method&#10;- Update the workspace.xml file with the latest changelist and task information&#10;&#10;The issue number is obtained from the branch name, which is main." />
+    <MESSAGE value="feat: add findDuplicate and pyramid methods in Main.java (main)&#10;&#10;This commit adds two new methods to the Main.java file:&#10;&#10;- findDuplicate method that takes an int array as input and returns true if it contains any duplicate elements, false otherwise&#10;- pyramid method that takes an int n as input and prints a pyramid of n stars&#10;&#10;The commit also refactors some existing code in the Main.java file:&#10;&#10;- Comment out some unused method calls in the main method&#10;- Update the workspace.xml file with the latest changelist and task information&#10;&#10;The issue number is obtained from the branch name, which is main." />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add findDuplicate and pyramid methods in Main.java (main)&#10;&#10;This commit adds two new methods to the Main.java file:&#10;&#10;- findDuplicate method that takes an int array as input and returns true if it contains any duplicate elements, false otherwise&#10;- pyramid method that takes an int n as input and prints a pyramid of n stars&#10;&#10;The commit also refactors some existing code in the Main.java file:&#10;&#10;- Comment out some unused method calls in the main method&#10;- Update the workspace.xml file with the latest changelist and task information&#10;&#10;The issue number is obtained from the branch name, which is main." />
   </component>
 </project>

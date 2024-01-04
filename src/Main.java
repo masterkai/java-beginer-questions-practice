@@ -29,23 +29,58 @@ public class Main {
         }
         return max;
     }
+
     public static int[] reverseArray(int[] arr) {
         int[] result = new int[arr.length];
         int length = arr.length;
-        for (int i = 0; i < length ; i++) {
-            result[i] = arr[length-1-i];
+        for (int i = 0; i < length; i++) {
+            result[i] = arr[length - 1 - i];
         }
         return result;
+    }
+
+    public static int addUpTo(int n) {
+        int count = 0;
+        int[] arr = new int[n];
+
+        for (int i = 0; i < n; i++) {
+            arr[i] = i + 1;
+        }
+        for (int i = 0; i < arr.length; i++) {
+            count += arr[i];
+        }
+        return count;
+    }
+
+    public static void position(String string) {
+        String re = "";
+        String allUpperCase = string.toUpperCase();
+        for (int i = 0; i < string.length(); i++) {
+            if(string.charAt(i)==allUpperCase.charAt(i)) {
+                re = string.charAt(i)+" "+i;
+                break;
+            } else {
+                re = "-1";
+            }
+        }
+        System.out.println(re);
     }
 
     public static void main(String[] args) {
         // printEvery3();
         // ninetable();
-        int[] array = {4, 3, 6, 7, 9, 10, 33, 0, -4, 12, 400, 133, 324, 1234231, 12334};
-        int[] reversedArray = reverseArray(array);
-        for (int i : reversedArray) {
-            System.out.println(i);
-        }
+//        int[] array = {4, 3, 6, 7, 9, 10, 33, 0, -4, 12, 400, 133, 324, 1234231, 12334};
+//        int[] reversedArray = reverseArray(array);
+//        for (int i : reversedArray) {
+//            System.out.println(i);
+//        }
+//        System.out.println(addUpTo(10));
+//        System.out.println(addUpTo(100));
+//        System.out.println(addUpTo(1000));
+//        System.out.println(addUpTo(10000));
+        position("abcd"); // prints -1
+        position("AbcD"); // prints A 0
+        position("abCD"); // prints C 2
 //        System.out.println(findMax(array));
     }
 }

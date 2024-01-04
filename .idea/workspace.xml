@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="717461ae-4edb-459c-8310-af27414b2708" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beginer-question.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    <list default="true" id="717461ae-4edb-459c-8310-af27414b2708" name="Changes" comment="feat: add .idea, .gitignore and Main.java files (main)&#10;&#10;This commit adds the following files to the project:&#10;&#10;- .idea/vcs.xml: contains the mapping of the project directory to Git&#10;- .idea/misc.xml: contains the project settings such as JDK version and output directory&#10;- .idea/modules.xml: contains the module information for the project&#10;- .idea/workspace.xml: contains the workspace settings such as changelist and task manager&#10;- .gitignore: contains the files and directories to be ignored by Git&#10;- beginer-question.iml: contains the module type and source folder for the project&#10;- src/Main.java: contains the main class with some methods for printing numbers, multiplication table and finding maximum value in an array&#10;&#10;The issue number is obtained from the branch name, which is main.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,11 +52,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1704353685560</updated>
-      <workItem from="1704353686925" duration="1718000" />
+      <workItem from="1704353686925" duration="2644000" />
     </task>
+    <task id="LOCAL-00001" summary="feat: add .idea, .gitignore and Main.java files (main)&#10;&#10;This commit adds the following files to the project:&#10;&#10;- .idea/vcs.xml: contains the mapping of the project directory to Git&#10;- .idea/misc.xml: contains the project settings such as JDK version and output directory&#10;- .idea/modules.xml: contains the module information for the project&#10;- .idea/workspace.xml: contains the workspace settings such as changelist and task manager&#10;- .gitignore: contains the files and directories to be ignored by Git&#10;- beginer-question.iml: contains the module type and source folder for the project&#10;- src/Main.java: contains the main class with some methods for printing numbers, multiplication table and finding maximum value in an array&#10;&#10;The issue number is obtained from the branch name, which is main.">
+      <option name="closed" value="true" />
+      <created>1704355599516</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1704355599516</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: add .idea, .gitignore and Main.java files (main)&#10;&#10;This commit adds the following files to the project:&#10;&#10;- .idea/vcs.xml: contains the mapping of the project directory to Git&#10;- .idea/misc.xml: contains the project settings such as JDK version and output directory&#10;- .idea/modules.xml: contains the module information for the project&#10;- .idea/workspace.xml: contains the workspace settings such as changelist and task manager&#10;- .gitignore: contains the files and directories to be ignored by Git&#10;- beginer-question.iml: contains the module type and source folder for the project&#10;- src/Main.java: contains the main class with some methods for printing numbers, multiplication table and finding maximum value in an array&#10;&#10;The issue number is obtained from the branch name, which is main." />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add .idea, .gitignore and Main.java files (main)&#10;&#10;This commit adds the following files to the project:&#10;&#10;- .idea/vcs.xml: contains the mapping of the project directory to Git&#10;- .idea/misc.xml: contains the project settings such as JDK version and output directory&#10;- .idea/modules.xml: contains the module information for the project&#10;- .idea/workspace.xml: contains the workspace settings such as changelist and task manager&#10;- .gitignore: contains the files and directories to be ignored by Git&#10;- beginer-question.iml: contains the module type and source folder for the project&#10;- src/Main.java: contains the main class with some methods for printing numbers, multiplication table and finding maximum value in an array&#10;&#10;The issue number is obtained from the branch name, which is main." />
   </component>
 </project>
